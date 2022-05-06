@@ -1,0 +1,20 @@
+img{
+  max-width: 100%;
+  height: auto;
+  background: lightblue;
+  background: radial-gradiant(white 30%, lightblue 70%)
+}
+
+.fa-star,
+.fa-star-half{
+  color: yellowgreen;
+  padding: 3% 0%;
+}
+
+.product{
+  border: 1px solid #eaeaec;
+  margin -1px 19px 3px -px;
+  padding: 100px;
+  text-align: center;
+  background-color: #efefef;
+}

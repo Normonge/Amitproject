@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  mix-blend-mode: multiply;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.container{
+  max-width: 1300px;          /*1300*/
+  margin:  0px;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 100%
+  padding: 50px 0;
+  mix-blend-mode: multiply;
+}
+
+.col-2 hl{
+  font-size: 50px;
+  line-height: 70px;
+  margin: 25px 0;
+}
+
+.btn{
+  display: inline-block;
+  background: #00bfff;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius:  30px;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background: #23383b;
+}
+
+.header{
+  background: radial-gradient(#fff,#d6ffff);
+}
+
+.header .row{
+  margin-top: 70px;
+}
+
+.catagories{
+  margin: 70px 0;
+}
+
+.col-3{
+  margin-bottom: 40px;
+  margin-top: 40px;
+ padding: 10px 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  text-align: center;
+  background: radial-gradient(#fff,#d6ffff);
+  list-style-type: none;
+}
+
+.col-3:hover{
+  transform: translateY(-20px);
+}
+
+.col-3 img{
+  width: 500px;
+  height: 300px:
+}
+
+.small-conatainer{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+  list-style-type: none;
+}
+
+.col-4 img{
+  width: 100%
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after{
+  content: '';
+  background: #00ffff;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4{
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 p{
+  font-size: 14px;
+}
+
+.rating .fa{
+  color: #1E90FF;
+}
+
+.col-4:hover{
+  transform: translateY(-5px);
+}
+
+.brands{
+  margin: 100px auto;
+}
+
+.col-5{
+  width: 160px;
+  transition: transform 0.5s;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  text-align: center;
+  list-style-type: none;
+}
+
+.col-5 img{
+  width:100%;
+  cursor: pointer;
+}
+
+.col-5:hover{
+  transform: translateY(-10px);
+}
+
+/*--------------footer--------------*/
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+.footer p{
+  color: #8a8a8a;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2{
+  flex-basis: 1;
+  text-align: center;
+}
+
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 140px;
+}
+
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.menu-icon{
+  width: 28px;
+  margin-left: 0px;
+  display: none;
+}
+
+.page-btn{
+  margin: 0 auto 80px;
+
+}
+
+
+.page-btn a{
+  display: inline-block;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.page-btn a:hover{
+  background: #00ffff;
+  color: #fff;
+}
+
+.single-product{
+  margin-top: 80px;
+}
+
+.single-product .col-2 img{
+  padding: 0;
+
+}
+
+.single-product .col-2{
+  padding: 20px;
+}
+
+.single-product h4{
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product select{
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.single-product input{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #00ffff;
+}
+
+input:focus{
+  outline: none;
+}
